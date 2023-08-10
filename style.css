@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ms+Madi&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,700;1,6..12,300&family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset code starts */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* text-decoration: none; */
+    outline: none;
+    list-style-type: none;
+    font-family: "nunito" sans-serif;
+}
+/* reset code ends */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    background-color: rgb(0, 13, 255);
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+}
+
+.card:hover{
+    box-shadow: 0.2rem 0.2rem 0.2rem #222, -0.2rem 0 0.2rem #222;
+}
+
+.card-title{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1rem 0rem 1rem 0rem;
+
+}
+.card-body{
+    text-align: center;
+}
+
+label{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+input{
+    width: 40%;
+    height: 1.7rem;
+    margin-bottom: 1rem;
+    background-color: aqua;
+    border-radius: 0.3rem;
+    border: none;
+}
+input:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: aqua;
+    text-decoration: none;
+    cursor: pointer;
+    width: 20%;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+}
+.buttons{
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+}
+
+.large-text{
+
+    color: rgb(255, 119, 0);
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
